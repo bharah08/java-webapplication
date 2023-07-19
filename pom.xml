@@ -19,7 +19,6 @@
             <version>5.1.30</version>
         </dependency>
   </dependencies>
-   <profile>
   <id>coverage</id>
   <build>
   <pluginManagement>
@@ -87,7 +86,6 @@
             </plugin>
         </plugins>
     </build>
-   </profile>
     <repositories>
         <repository>
             <snapshots>
