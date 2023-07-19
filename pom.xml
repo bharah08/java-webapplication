@@ -41,9 +41,9 @@
       <groupId>org.jacoco</groupId>
      <artifactId>jacoco-maven-plugin</artifactId>
       <version>0.8.10</version>
-     </plugin>
-        </pluginManagement>
+     </plugin>    
   </plugins>
+    </pluginManagement>
     
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
