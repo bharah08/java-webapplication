@@ -14,7 +14,7 @@ jobs:
 
     steps:
     - uses: actions/checkout@v3
-    - name: Set up JDK 17
+    - name: install package for java project
       run: |
-        PATH="/opt/apache-maven-3.9.1/bin:$PATH"
+        PATH="/opt/apache-maven-3.6.3/bin:$PATH"
         mvn clean install
